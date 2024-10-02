@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Online Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #fdd5e5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .logo {
+            text-align: center;
+            margin: 30px;
+            font-size: 40px;
+            color: #000;
+        }
+
+        .store-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .item {
+            background-color: white;
+            color: black;
+            padding: 30px;
+            font-weight: bold;
+            margin: 10px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .item:hover {
+            background: #ffd1e1;
+        }
+
+        .item p {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .item a {
+            text-decoration: none;
+            font-size: 18px;
+            display: block;
+            color: #000;
+            margin-top: 5px;
+            padding: 10px;
+            background-color: #ffebf0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s ease;
+        }
+
+        .item a:hover {
+            background-color: #ffcad8;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <h1>Official Online Store</h1>
+    </div>
+    <div class="store-container">
+        <div class="item">
+            <p>Philippines</p>
+            <a href="https://sonyangelstore.com">Sonny Angel Store</a>
+        </div>
+        <div class="item">
+            <p>Japan</p>
+            <a href="#">Sonny Angel Store</br>ソニーエンジェルストア</a>
+        </div>
+        <div class="item">
+            <p>Korea</p>
+            <a href="#">Sonny Angel Store</br>소니 엔젤 스토어</a>
+        </div>
+    </div>
+</body>
+</html>

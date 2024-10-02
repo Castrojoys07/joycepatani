@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipping Methods and Costs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center; 
+            background-color: #FDD5E5;  
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        .shipping-options {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+
+        .shipping-option {
+            text-align: center;
+        }
+
+        .shipping-option img {
+            width: 60px;
+            height: 60px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        th {
+            background-color:  #ddd;
+        }
+
+        .note {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>SHIPPING METHODS AND COSTS</h1>
+
+    <div class="shipping-options">
+        <div class="shipping-option">
+            <img src="logo2.png" alt="Domestic Shipping Icon">
+            <p>Domestic</p>
+        </div>
+        <div class="shipping-option">
+            <img src="logo1.png" alt="Oversea Shipping Icon">
+            <p>Oversea</p>
+        </div>
+    </div>
+
+    <h2>Domestic</h2>
+    <table>
+        <tr>
+            <th>Name of Shipping Cost</th>
+            <th>Terms (Including Tax)</th>
+            <th>Price (Including Tax)</th>
+        </tr>
+        <tr>
+            <td>Free Shipping</td>
+            <td>500</td>
+            <td>Free</td>
+        </tr>
+        <tr>
+            <td>Standard delivery</td>
+            <td>1000</td>
+            <td>660</td>
+        </tr>
+    </table>
+
+    <p class="note">
+        Free shipping for Filipino orders that are over 500 (Including Tax). For orders under 1000 (Tax Included), you will be charged 660 (Including Tax) for shipping.
+    </p>
+</div>
+
+</body>
+</html>
